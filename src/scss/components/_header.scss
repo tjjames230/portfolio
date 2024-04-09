@@ -1,0 +1,14 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+header {
+	background-color: $clr-primary;
+	color: $clr-white;
+
+	#header-ctn {
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		padding: rem(25);
+	}
+}
