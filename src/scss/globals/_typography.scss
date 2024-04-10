@@ -8,18 +8,10 @@ h3 {
 	line-height: 1.1;
 }
 
-h1 {
-	font-size: rem(24);
-	margin-bottom: rem(3);
-	color: $clr-primary;
-	@include breakpoint(large) {
-		font-size: rem(28);
-	}
-}
-
 h2 {
-	font-size: rem(24);
-	color: $clr-secondary;
+	font-size: rem(32);
+	color: $clr-white;
+	font-weight: 700;
 }
 
 a,
