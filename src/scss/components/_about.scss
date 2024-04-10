@@ -8,6 +8,7 @@
 	overflow: hidden;
 
 	#about-ctn {
+		display: flex;
 		background-color: $clr-tertiary;
 		height: 150%;
 		position: relative;
@@ -15,5 +16,6 @@
 		margin: 0 auto;
 		width: 60%;
 		border-radius: rem(25);
+		padding: rem(40) rem(80);
 	}
 }
