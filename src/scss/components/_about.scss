@@ -17,5 +17,21 @@
 		width: 60%;
 		border-radius: rem(25);
 		padding: rem(40) rem(80);
+
+		#about-content {
+			display: flex;
+			flex-direction: column;
+		}
+
+		img {
+			border-radius: 50%;
+		}
+
+		#hero-img-shadow {
+			background-color: $clr-black;
+			width: 100%;
+			aspect-ratio: 1 / 1;
+			position: absolute;
+		}
 	}
 }
