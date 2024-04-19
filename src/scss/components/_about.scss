@@ -12,16 +12,21 @@
 	#about-ctn {
 		display: flex;
 		align-items: center;
-		background-color: $clr-tertiary;
+		background: linear-gradient(
+			0.35turn,
+			$clr-gradient-one,
+			$clr-gradient-two,
+			$clr-gradient-three,
+			$clr-gradient-four
+		);
 		gap: rem(25);
 		height: 90%;
 		margin: 0 auto;
 		width: 60%;
 		border-radius: rem(25) rem(25) 0 0;
 		padding: rem(40) rem(80);
-		border-top: rem(10) solid hsla(0, 100%, 100%, 25%);
-		border-left: rem(10) solid hsla(0, 100%, 100%, 25%);
-		border-right: rem(10) solid hsla(0, 100%, 100%, 25%);
+		border: rem(5) solid $clr-gradient-two;
+		border-bottom: 0;
 
 		#about-content {
 			display: flex;
@@ -36,7 +41,7 @@
 
 		img {
 			border-radius: 50%;
-			filter: drop-shadow(rem(7) rem(7) 0 #000);
+			filter: drop-shadow(rem(7) rem(7) 0 $clr-tertiary);
 		}
 	}
 }
