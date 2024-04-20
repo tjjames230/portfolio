@@ -1,0 +1,24 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#portfolio {
+	background-color: $clr-gray-dk;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: rem(35);
+
+	h2 {
+		text-align: center;
+	}
+}
+
+#portfolio-ctn {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: rem(25);
+
+	div {
+		background-color: white;
+	}
+}

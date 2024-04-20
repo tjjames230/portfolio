@@ -8,8 +8,13 @@ h3 {
 	line-height: 1.1;
 }
 
-h2 {
+h1 {
 	font-size: rem(32);
+	font-weight: 700;
+}
+
+h2 {
+	font-size: rem(26);
 	color: $clr-white;
 	font-weight: 700;
 }
