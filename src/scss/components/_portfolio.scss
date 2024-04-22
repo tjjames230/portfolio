@@ -18,7 +18,7 @@
 	grid-template-columns: repeat(4, 1fr);
 	gap: rem(25);
 
-	div {
+	.portfolio-card {
 		background-color: white;
 	}
 }
