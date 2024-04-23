@@ -10,7 +10,7 @@ header {
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	padding: rem(25);
+	padding: rem(25) 0;
 
 	#header-left,
 	#header-right {
@@ -40,4 +40,10 @@ i {
 
 i:hover {
 	color: $clr-secondary;
+}
+
+@media screen and (max-width: rem(1590)) {
+	#header-ctn {
+		padding: rem(25);
+	}
 }
