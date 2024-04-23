@@ -14,11 +14,64 @@
 }
 
 #portfolio-ctn {
+	padding-top: rem(35);
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: rem(25);
 
 	.portfolio-card {
-		background-color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		color: $clr-white;
+	}
+
+	.img-ctn {
+		display: flex;
+		height: 70%;
+		overflow: hidden;
+	}
+
+	img {
+		object-fit: cover;
+		width: 100%;
+	}
+
+	h3,
+	a {
+		padding: rem(20);
+	}
+
+	.btn-ctn {
+		display: flex;
+		width: 100%;
+	}
+
+	a {
+		justify-content: center;
+		font-size: rem(18);
+		width: 100%;
+		border: none;
+		background-color: $clr-primary;
+		color: $clr-white;
+	}
+
+	a:hover {
+		background-color: $clr-secondary;
+		color: $clr-black;
+		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: rem(1400)) {
+	#portfolio-ctn {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (max-width: rem(1060)) {
+	#portfolio-ctn {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
