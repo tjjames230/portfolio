@@ -1,0 +1,14 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#experience {
+	background-color: $clr-primary;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: rem(35);
+
+	h2 {
+		text-align: center;
+	}
+}
