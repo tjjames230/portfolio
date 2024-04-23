@@ -38,7 +38,10 @@
 		width: 100%;
 	}
 
-	h3,
+	h3 {
+		padding-bottom: rem(20);
+	}
+
 	a {
 		padding: rem(20);
 	}
@@ -55,6 +58,10 @@
 		border: none;
 		background-color: $clr-primary;
 		color: $clr-white;
+	}
+
+	.code-btn {
+		background-color: $clr-tertiary;
 	}
 
 	a:hover {

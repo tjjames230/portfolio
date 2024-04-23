@@ -4,6 +4,7 @@ import resume from "./assets/resume.pdf";
 import headshot from "./assets/headshot.jpg";
 import library from "./assets/library.png";
 import coffee from "./assets/coffee.png";
+import todo from "./assets/todo.png";
 
 init();
 
@@ -21,3 +22,6 @@ libraryImg.src = library;
 
 const coffeeImg = document.querySelector("#coffee-img");
 coffeeImg.src = coffee;
+
+const todoImg = document.querySelector("#to-do-img");
+todoImg.src = todo;
