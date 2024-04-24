@@ -20,8 +20,13 @@
 
 	#experience-list-ctn {
 		width: 25%;
-		height: 50px;
+		display: flex;
+		flex-direction: column;
 		background-color: gray;
+
+		.experience-list {
+			background-color: white;
+		}
 	}
 
 	#experience-details-ctn {
