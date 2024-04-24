@@ -37,6 +37,10 @@
 			}
 		}
 
+		.experience-list:hover {
+			cursor: pointer;
+		}
+
 		.active-list {
 			border-bottom: 2px solid $clr-secondary;
 		}
@@ -81,6 +85,10 @@
 			color: $clr-secondary;
 		}
 	}
+}
+
+.hidden-details {
+	display: none;
 }
 
 @media screen and (max-width: rem(1000)) {
