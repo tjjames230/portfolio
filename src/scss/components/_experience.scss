@@ -17,21 +17,40 @@
 	display: flex;
 	width: 100%;
 	justify-content: center;
+	color: $clr-white;
 
 	#experience-list-ctn {
 		width: 25%;
 		display: flex;
 		flex-direction: column;
-		background-color: gray;
+		border-left: 5px solid $clr-secondary;
 
 		.experience-list {
-			background-color: white;
+			border-bottom: 2px solid $clr-primary;
+			padding: rem(15);
+
+			h4 {
+				font-size: rem(18);
+				font-weight: 700;
+			}
+
+			p {
+				font-size: rem(16);
+			}
+		}
+
+		.active-list {
+			border-bottom: 2px solid $clr-secondary;
+		}
+
+		.active-header {
+			color: $clr-secondary;
 		}
 	}
 
 	#experience-details-ctn {
 		width: 50%;
-		height: 50px;
+		padding: rem(15);
 		background-color: lightblue;
 	}
 }
