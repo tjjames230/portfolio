@@ -12,3 +12,21 @@
 		text-align: center;
 	}
 }
+
+#experience-ctn {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+
+	#experience-list-ctn {
+		width: 25%;
+		height: 50px;
+		background-color: gray;
+	}
+
+	#experience-details-ctn {
+		width: 50%;
+		height: 50px;
+		background-color: lightblue;
+	}
+}
