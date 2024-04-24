@@ -4,6 +4,7 @@
 header {
 	background-color: $clr-primary;
 	color: $clr-white;
+	top: rem(0);
 }
 
 #header-ctn {
@@ -29,6 +30,7 @@ header {
 }
 
 a {
+	color: $clr-white;
 	display: flex;
 	align-items: center;
 }
