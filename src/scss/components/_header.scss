@@ -33,6 +33,15 @@ a {
 	color: $clr-white;
 	display: flex;
 	align-items: center;
+	border-bottom: 2px solid $clr-primary;
+}
+
+nav > a {
+	border-bottom: 2px solid $clr-primary;
+}
+
+nav > a:hover {
+	border-bottom: 2px solid $clr-secondary;
 }
 
 i {
