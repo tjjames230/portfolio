@@ -82,3 +82,27 @@
 		}
 	}
 }
+
+@media screen and (max-width: rem(1000)) {
+	#experience-ctn {
+		#experience-list-ctn {
+			width: 35%;
+		}
+
+		#experience-details-ctn {
+			width: 65%;
+		}
+	}
+}
+
+@media screen and (max-width: rem(725)) {
+	#experience-ctn {
+		#experience-list-ctn {
+			display: none;
+		}
+
+		#experience-details-ctn {
+			width: 100%;
+		}
+	}
+}

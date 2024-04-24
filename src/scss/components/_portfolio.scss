@@ -82,3 +82,9 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
+@media screen and (max-width: rem(700)) {
+	#portfolio-ctn {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

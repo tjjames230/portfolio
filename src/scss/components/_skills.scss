@@ -27,7 +27,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		filter: drop-shadow(0 0 rem(10) $clr-black);
+		filter: drop-shadow(0 0 rem(5) $clr-black);
 
 		div {
 			padding-top: rem(15);
@@ -59,7 +59,7 @@
 	}
 }
 
-@media screen and (max-width: rem(425)) {
+@media screen and (max-width: rem(650)) {
 	#skills-ctn {
 		grid-template-columns: repeat(2, 1fr);
 	}
