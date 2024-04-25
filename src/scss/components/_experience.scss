@@ -105,11 +105,14 @@
 
 @media screen and (max-width: rem(725)) {
 	#experience-ctn {
+		padding-top: rem(35);
+
 		#experience-list-ctn {
 			display: none;
 		}
 
 		#experience-details-ctn {
+			padding: 0;
 			width: 100%;
 
 			h3 {
