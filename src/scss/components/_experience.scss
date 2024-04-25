@@ -111,6 +111,22 @@
 
 		#experience-details-ctn {
 			width: 100%;
+
+			h3 {
+				display: block;
+			}
+
+			h4 {
+				display: block;
+			}
+		}
+
+		.hidden-details {
+			display: block;
+		}
+
+		.hidden-details:nth-child(n + 1) {
+			padding-top: rem(25);
 		}
 	}
 }
