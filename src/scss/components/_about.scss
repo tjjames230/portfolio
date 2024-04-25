@@ -46,3 +46,24 @@
 		}
 	}
 }
+
+@media screen and (max-width: rem(1024)) {
+	#about #about-ctn {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: rem(768)) {
+	#about {
+		height: auto;
+
+		#about-ctn {
+			flex-direction: column-reverse;
+
+			#about-content {
+				width: 100%;
+				align-items: center;
+			}
+		}
+	}
+}
