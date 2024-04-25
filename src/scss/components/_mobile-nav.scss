@@ -1,0 +1,21 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#mobile-nav {
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	width: rem(35);
+
+	.mobile-lines {
+		height: rem(3);
+		width: 100%;
+		background-color: $clr-white;
+	}
+}
+
+@media screen and (max-width: rem(950)) {
+	#mobile-nav {
+		display: flex;
+	}
+}

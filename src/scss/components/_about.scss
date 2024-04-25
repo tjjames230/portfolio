@@ -67,3 +67,12 @@
 		}
 	}
 }
+
+@media screen and (max-width: rem(425)) {
+	#about {
+		#about-ctn {
+			padding: rem(20);
+			font-size: rem(16);
+		}
+	}
+}

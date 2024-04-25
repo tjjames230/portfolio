@@ -58,3 +58,15 @@ i:hover {
 		padding: rem(25);
 	}
 }
+
+@media screen and (max-width: rem(950)) {
+	#header-ctn {
+		#header-left > nav {
+			display: none;
+		}
+
+		#header-right {
+			display: none;
+		}
+	}
+}

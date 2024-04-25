@@ -62,5 +62,6 @@
 @media screen and (max-width: rem(650)) {
 	#skills-ctn {
 		grid-template-columns: repeat(2, 1fr);
+		font-size: rem(16);
 	}
 }
