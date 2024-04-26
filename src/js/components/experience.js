@@ -46,6 +46,4 @@ function updateExperienceDetails() {
 			expDetails[i].classList.add("active-details");
 		}
 	}
-
-	console.log("test");
 }

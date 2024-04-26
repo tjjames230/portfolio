@@ -1,7 +1,7 @@
 @use "../globals/" as *;
 @use "../utilities/" as *;
 
-#mobile-nav {
+#mobile-btn {
 	display: none;
 	flex-direction: column;
 	justify-content: space-around;
@@ -14,8 +14,59 @@
 	}
 }
 
+#mobile-nav {
+	display: none;
+	text-align: right;
+	position: absolute;
+	top: rem(25);
+	right: rem(25);
+	padding: rem(35);
+	font-size: rem(20);
+	background-color: $clr-primary;
+	width: 80%;
+	flex-direction: column;
+	z-index: 4;
+
+	ul {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: rem(15);
+		padding-top: rem(25);
+	}
+
+	i {
+		font-size: rem(35);
+	}
+
+	.mobile-nav-link {
+		color: $clr-white;
+	}
+
+	.resume-link {
+		padding: 0;
+		max-width: none;
+		display: block;
+		font-size: rem(20);
+		font-weight: 700;
+		color: $clr-secondary;
+		background: none;
+	}
+}
+
+#mobile-nav-overlay {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: hsla(0, 0%, 100%, 0.25);
+	z-index: 3;
+}
+
 @media screen and (max-width: rem(950)) {
-	#mobile-nav {
+	#mobile-btn {
 		display: flex;
 	}
 }
