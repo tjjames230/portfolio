@@ -63,6 +63,12 @@
 				align-items: center;
 			}
 		}
+
+		#img-ctn {
+			img {
+				filter: drop-shadow(rem(5) rem(5) 0 $clr-tertiary);
+			}
+		}
 	}
 }
 
