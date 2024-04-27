@@ -2,6 +2,7 @@ export { loadMobile };
 
 const mobileBtn = document.querySelector("#mobile-btn");
 const mobileNav = document.querySelector("#mobile-nav");
+const mobileNavOverlay = document.querySelector("#mobile-nav-overlay");
 const mobileNavExit = document.querySelector("#mobile-nav-exit");
 const mobileNavLink = Array.from(document.querySelectorAll(".mobile-nav-link"));
 
@@ -19,8 +20,10 @@ function loadMobileEventListeners() {
 
 function displayMobileNav() {
 	mobileNav.style.display = "flex";
+	mobileNavOverlay.style.display = "block";
 }
 
 function hideMobileNav() {
 	mobileNav.style.display = "none";
+	mobileNavOverlay.style.display = "none";
 }

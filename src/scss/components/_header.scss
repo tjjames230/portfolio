@@ -5,6 +5,9 @@ header {
 	background-color: $clr-primary;
 	color: $clr-white;
 	top: rem(0);
+	border-bottom: 1px solid $clr-gray-dk;
+	position: sticky;
+	z-index: 10;
 }
 
 #header-ctn {
