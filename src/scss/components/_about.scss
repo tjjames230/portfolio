@@ -4,10 +4,10 @@
 #about {
 	background-color: $clr-primary;
 	color: $clr-white;
-	height: rem(400);
 	overflow: hidden;
 	display: flex;
 	align-items: end;
+	padding-top: rem(50);
 
 	#about-ctn {
 		display: flex;

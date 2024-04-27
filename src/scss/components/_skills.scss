@@ -65,3 +65,11 @@
 		font-size: rem(16);
 	}
 }
+
+@media screen and (max-width: rem(425)) {
+	#skills-ctn {
+		img {
+			max-width: rem(100);
+		}
+	}
+}
