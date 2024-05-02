@@ -6,6 +6,8 @@
 	flex-direction: column;
 	justify-content: space-around;
 	width: rem(35);
+	background: none;
+	border: none;
 
 	.mobile-lines {
 		height: rem(3);
@@ -26,6 +28,12 @@
 	width: 80%;
 	flex-direction: column;
 	z-index: 4;
+
+	button {
+		background: none;
+		border: none;
+		text-align: right;
+	}
 
 	ul {
 		list-style: none;
