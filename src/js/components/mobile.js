@@ -21,9 +21,11 @@ function loadMobileEventListeners() {
 function displayMobileNav() {
 	mobileNav.style.display = "flex";
 	mobileNavOverlay.style.display = "block";
+	mobileNav.ariaHidden = "false";
 }
 
 function hideMobileNav() {
 	mobileNav.style.display = "none";
 	mobileNavOverlay.style.display = "none";
+	mobileNav.ariaHidden = "true";
 }
