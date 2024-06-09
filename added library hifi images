@@ -1,0 +1,236 @@
+[33mcommit b25268ea0455012b50b35d9ce27370de55b1182a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sun Jun 9 11:43:34 2024 -0500
+
+    updated file structure
+
+[33mcommit 2ed92149e1fe0d17f2b0c14a0752982d6707f0de[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue Jun 4 22:32:33 2024 -0500
+
+    added library hifi images
+
+[33mcommit 2ea525868cbe7180cb3e2f990f6fa0c586442dfe[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue Jun 4 21:34:50 2024 -0500
+
+    added library sketch images
+
+[33mcommit a00d6afd1a24bfdb6e66763ee8f0a1753343d8dc[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue Jun 4 13:55:37 2024 -0500
+
+    added jest logo
+
+[33mcommit 6e3cd7d1225e831b788595f1164c0c3af0d84174[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat May 18 11:10:27 2024 -0500
+
+    updated resume
+
+[33mcommit 47b17860f92bcb25ddd2c7728351f1c4242e1c12[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat May 18 11:05:37 2024 -0500
+
+    updated experience and summary
+
+[33mcommit fac98046f65bd05b8a5eab7cfa3fd9d4932ccbd0[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu May 9 11:13:37 2024 -0500
+
+    updated skills section to tailwind
+
+[33mcommit edaa3214c01466582cd4d970bb8e28067b2e0b3c[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue May 7 13:22:00 2024 -0500
+
+    added aria-hidden attribute for mobile
+
+[33mcommit 234ff59a84de3a5708dc5795d454bd118ead9c15[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu May 2 14:41:37 2024 -0500
+
+    updated some tags to button and updated styling to help with keyboard accessibility
+
+[33mcommit 65364a45e0b4fe6da5557c2aa265e933f43b71dd[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu May 2 14:16:18 2024 -0500
+
+    added main tag for content
+
+[33mcommit 6ef0a4f9272aba22241d41e564f72dbd7ea3da45[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat Apr 27 11:33:10 2024 -0500
+
+    updated package.json name
+
+[33mcommit 40d961db8707358222f0c47a0a94040aa0cb0855[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat Apr 27 11:31:13 2024 -0500
+
+    updated resume and skills sections
+
+[33mcommit 15d8cc0e3341fb6ba4d144b4dc310c9206d0b002[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat Apr 27 11:03:03 2024 -0500
+
+    updated image styling for tablet size and smaller
+
+[33mcommit 3f7d62d638f8a2a8ac7303484004dbafc21e9c03[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat Apr 27 10:56:03 2024 -0500
+
+    fixed skill section styling for small mobile devices
+
+[33mcommit 9553a280eb0678b2bc7ed0f268985a3348742e9d[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat Apr 27 10:36:19 2024 -0500
+
+    updated header settings
+
+[33mcommit 097d4f74569c7d27bc3f738cfae12e9c80cd5dec[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat Apr 27 10:04:43 2024 -0500
+
+    updated mobile nav links to hide nav on click
+
+[33mcommit 4695e6bc50f56b11b2a6ab76f7fe1d2444464900[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat Apr 27 09:58:03 2024 -0500
+
+    added mobile nav exit
+
+[33mcommit 037a6e3b7dcab39634e8be28e667deb8c9e747af[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Sat Apr 27 00:06:19 2024 -0500
+
+    started adding mobile nav display functions
+
+[33mcommit 5f2efc349f2180f4eda1ffa5f32123b536678785[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu Apr 25 21:58:18 2024 -0500
+
+    added mobile nav styling, fixed styles for desktop header and portfolio
+
+[33mcommit 1d76477de3bc9a64e865f18e7ed3334a9574eab8[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu Apr 25 16:15:36 2024 -0500
+
+    added mobile nav and started updating mobile functionality
+
+[33mcommit a2b80e467ed79162d80f1df63f4dce3cbe75bcf0[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu Apr 25 12:16:36 2024 -0500
+
+    updated responsiveness for about section
+
+[33mcommit 5dc65eb011b54e1e39e4e635a795cf20b989bd3d[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu Apr 25 12:04:43 2024 -0500
+
+    updated experience spacing
+
+[33mcommit 70d4ac8c51ce10f1c5c92354ece813b05cd1c71d[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu Apr 25 11:56:50 2024 -0500
+
+    updated responsiveness of experience section
+
+[33mcommit 6ae0f76d160835f1740e8fc63334de35bf803deb[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu Apr 25 11:43:26 2024 -0500
+
+    updated experience details to display on click
+
+[33mcommit e7ec1f67e55ff8956420fbd87e92d51333601746[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Thu Apr 25 11:08:54 2024 -0500
+
+    updated experience list styling on click
+
+[33mcommit ff13bb5d94ee07730aa695de4763e05e3f59e1a4[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Wed Apr 24 16:13:34 2024 -0500
+
+    starting to add logic for experience click events
+
+[33mcommit 86790ba7e619d7f7f0f98af25c9b3618d7cc998d[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Wed Apr 24 15:59:11 2024 -0500
+
+    updated src for img tags in html from js
+
+[33mcommit 56719e7a5c367c4d04e6836e9df013c59c2f144e[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Wed Apr 24 15:16:38 2024 -0500
+
+    updated responsiveness for experience and portfolio sections
+
+[33mcommit 1bdfcc6e6c0a4fc28b6a8fd5c1269d2cf03e2286[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Wed Apr 24 14:55:45 2024 -0500
+
+    added content and finished styling skills
+
+[33mcommit 4f9430bc364f5eea8905562b6eae643f0cec96dc[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Wed Apr 24 11:28:34 2024 -0500
+
+    added content for skills
+
+[33mcommit 0dbd18c089b570cc1b0b38e743f28c0fd63cd532[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Wed Apr 24 11:12:08 2024 -0500
+
+    added favicon
+
+[33mcommit 1f64f8e359a7fca03860647aac0037991e61fbe1[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Wed Apr 24 11:11:58 2024 -0500
+
+    updated styling and added skills section
+
+[33mcommit 2ecd338131e1678acc516312ddc8ac703fcca878[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue Apr 23 23:17:49 2024 -0500
+
+    updated experience styling
+
+[33mcommit e6be132a598c3eea2f736e42098cc11cc2d04c04[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue Apr 23 22:39:52 2024 -0500
+
+    added all content for experience list and finished styling
+
+[33mcommit e8b8a8d27dcabef70a0622d4052c0b912b811181[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue Apr 23 22:20:10 2024 -0500
+
+    added left side experience content
+
+[33mcommit 9eb0d880285b9b66393b87631bba97b1e1ce804b[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue Apr 23 22:13:06 2024 -0500
+
+    started basic layout of experience section
+
+[33mcommit 4c81cce7ea8539a340c463f8d3455b173b32124b[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue Apr 23 15:06:33 2024 -0500
+
+    updated header container
+
+[33mcommit b46005a94c800d81b4bb84d63f1e97f4684ca456[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Tue Apr 23 14:41:31 2024 -0500
+
+    started adding experience section with basic styling
+
+[33mcommit d8d3943b5996410e6804bb7f36d6215176f6caa0[m
+Author: tjjames230 <108950500+tjjames230@users.noreply.github.com>
+Date:   Mon Apr 22 22:05:41 2024 -0500
+
+    added project for portfolio
+
+[33mcommit cb4ca7b570819a01c97c721d6a3ede06fdff6ab2[m
+A
