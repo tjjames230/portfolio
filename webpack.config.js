@@ -3,12 +3,31 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
 	mode: "development",
-	entry: "./src/index.js",
+	entry: {
+		index: "./src/index.js",
+		portfolio: "./src/portfolio.js",
+		experience: "./src/experience.js",
+		about: "./src/about.js",
+	},
 	devtool: "inline-source-map",
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: "To Do List",
 			template: "./src/index.html",
+			inject: true,
+			chunks: ["index"],
+			filename: "index.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/portfolio.html",
+			inject: true,
+			chunks: ["portfolio"],
+			filename: "portfolio.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/experience.html",
+			inject: true,
+			chunks: ["experience"],
+			filename: "experience.html",
 		}),
 	],
 	output: {
