@@ -1,9 +1,26 @@
 export { updateHeaderActiveLink };
 
-const nav = Array.from(document.querySelectorAll(".nav-links"));
+const nav = document.querySelectorAll(".nav-links");
 
 function updateHeaderActiveLink() {
-	nav.map((link) => {
-		link.addEventListener("mouseover", console.log("hi"));
+	nav.forEach((link) => {
+		link.addEventListener("click", () => {
+			updateHeaderStyles(link);
+		});
 	});
+}
+
+function updateHeaderStyles(link) {
+	removeHeaderStyles();
+	addHeaderStyles(link);
+}
+
+function removeHeaderStyles() {
+	nav.forEach((child) => {
+		child.classList.remove(".active-nav");
+	});
+}
+
+function addHeaderStyles(link) {
+	link.classList.add(".active-nav");
 }
