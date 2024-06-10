@@ -1,0 +1,33 @@
+@use "../utilities/" as *;
+@use "../globals/" as *;
+
+header {
+	padding: rem(48) 0;
+	border-bottom: 1px solid $clr-gray-dark;
+}
+
+#header-layout {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	gap: rem(48);
+
+	a {
+		color: $clr-gray;
+	}
+
+	a:hover {
+		color: $clr-white;
+	}
+}
+
+@media screen and (max-width: rem(1590)) {
+	header {
+		padding: rem(48) rem(48);
+	}
+}
