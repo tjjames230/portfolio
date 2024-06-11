@@ -1,0 +1,12 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#btn-top {
+	position: fixed;
+	right: rem(50);
+	bottom: rem(50);
+}
+
+#btn-top:hover {
+	cursor: pointer;
+}
