@@ -24,10 +24,10 @@ ul {
 	a:hover {
 		color: $clr-white;
 	}
-}
 
-.active-nav {
-	color: $clr-white;
+	.active-nav {
+		color: $clr-white;
+	}
 }
 
 @media screen and (max-width: rem(1590)) {

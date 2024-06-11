@@ -17,10 +17,10 @@ function updateHeaderStyles(link) {
 
 function removeHeaderStyles() {
 	nav.forEach((child) => {
-		child.classList.remove(".active-nav");
+		child.classList.remove("active-nav");
 	});
 }
 
 function addHeaderStyles(link) {
-	link.classList.add(".active-nav");
+	link.classList.add("active-nav");
 }

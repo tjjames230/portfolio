@@ -29,6 +29,12 @@ module.exports = {
 			chunks: ["experience"],
 			filename: "experience.html",
 		}),
+		new HtmlWebpackPlugin({
+			template: "./src/about.html",
+			inject: true,
+			chunks: ["about"],
+			filename: "about.html",
+		}),
 	],
 	output: {
 		filename: "[name].bundle.js",
