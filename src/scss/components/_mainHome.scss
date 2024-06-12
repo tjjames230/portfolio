@@ -52,4 +52,23 @@
 			}
 		}
 	}
+
+	#about-me,
+	#skills {
+		display: flex;
+		flex-direction: column;
+		gap: rem(80);
+
+		h2 {
+			text-align: center;
+		}
+	}
+
+	#about-me {
+		width: rem(657);
+	}
+
+	#skills {
+		width: rem(991);
+	}
 }
