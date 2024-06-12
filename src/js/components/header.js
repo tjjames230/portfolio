@@ -1,4 +1,4 @@
-export { updateHeaderActiveLink };
+export { updateHeaderActiveLink, removeHeaderStyles };
 
 const nav = document.querySelectorAll(".nav-links");
 

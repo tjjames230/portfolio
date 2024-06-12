@@ -31,7 +31,7 @@
 		width: rem(795);
 		gap: rem(120);
 
-		p {
+		#projects-one-liner {
 			text-align: center;
 		}
 	}
@@ -40,5 +40,16 @@
 		display: flex;
 		flex-direction: column;
 		gap: rem(40);
+
+		.project-heading {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			p {
+				font-size: rem(80);
+				font-weight: 100;
+			}
+		}
 	}
 }
