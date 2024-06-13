@@ -1,0 +1,18 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#about-content {
+	display: flex;
+	padding: rem(120) 0;
+	justify-content: space-between;
+	align-items: center;
+
+	p {
+		padding: 0 rem(120);
+	}
+
+	img {
+		width: auto;
+		max-height: rem(555);
+	}
+}
