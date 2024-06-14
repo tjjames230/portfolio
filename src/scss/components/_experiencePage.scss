@@ -14,6 +14,11 @@
 			flex-direction: column;
 			position: sticky;
 			top: rem(80);
+			gap: rem(24);
+		}
+
+		h4 {
+			font-weight: 700;
 		}
 	}
 
@@ -26,7 +31,6 @@
 	}
 
 	.experience-content {
-		width: rem(1070);
 		font-size: rem(16);
 		padding-left: rem(80);
 
@@ -35,7 +39,7 @@
 			flex-direction: column;
 			gap: rem(8);
 			list-style: disc;
-			list-style-position: inside;
+			list-style-position: outside;
 		}
 
 		h3 {
