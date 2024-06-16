@@ -13,6 +13,10 @@ module.exports = {
 		portfolioproject: "./src/js/portfolio/portfolioproject.js",
 	},
 	devtool: "inline-source-map",
+	devServer: {
+		contentBase: "./dist",
+		hot: true,
+	},
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: "./src/html/index.html",
