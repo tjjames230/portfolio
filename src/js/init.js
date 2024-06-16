@@ -5,4 +5,5 @@ import { scrollToTop } from "./components/toTopBtn";
 function init() {
 	updateHeaderActiveLink();
 	scrollToTop();
+	mobileNavInit();
 }

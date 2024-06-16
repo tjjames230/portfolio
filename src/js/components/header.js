@@ -24,3 +24,9 @@ function removeHeaderStyles() {
 function addHeaderStyles(link) {
 	link.classList.add("active-nav");
 }
+
+function mobileNavInit() {
+	console.log(
+		"this is where I will add logic for opening and closing the nav on click for mobile"
+	);
+}

@@ -37,7 +37,8 @@ main {
 	#projects {
 		display: flex;
 		flex-direction: column;
-		width: rem(795);
+		max-width: rem(795);
+		width: 100%;
 		gap: rem(120);
 
 		#projects-one-liner {
@@ -74,16 +75,18 @@ main {
 	}
 
 	#about-me {
-		width: rem(657);
+		max-width: rem(657);
 	}
 
 	#skills-ctn {
-		width: rem(991);
+		max-width: rem(991);
+		width: 100%;
 
 		#skills-list {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
+			gap: rem(64) 0;
 		}
 
 		.skill {
@@ -96,10 +99,6 @@ main {
 			h3 {
 				text-align: center;
 			}
-		}
-
-		.skill-gap {
-			margin-bottom: rem(48);
 		}
 
 		.skill-img-ctn {
@@ -121,6 +120,92 @@ main {
 
 @media screen and (max-width: rem(1024)) {
 	main {
-		padding: rem(120) rem(50);
+		padding: rem(120) rem(48);
+	}
+}
+
+@media screen and (max-width: rem(768)) {
+	body {
+		font-size: rem(16);
+	}
+
+	main {
+		#welcome {
+			flex-direction: column;
+			gap: rem(40);
+
+			div,
+			img {
+				width: 100%;
+			}
+		}
+
+		h1,
+		h2 {
+			font-size: rem(50);
+		}
+
+		.project-ctn {
+			gap: rem(32);
+
+			.project-heading {
+				p {
+					font-size: rem(60);
+				}
+			}
+		}
+
+		#skills-ctn {
+			.skill {
+				width: 33%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: rem(425)) {
+	main {
+		gap: rem(80);
+		padding: rem(80) rem(24);
+
+		h1,
+		h2 {
+			font-size: rem(32);
+		}
+
+		#projects {
+			gap: rem(48);
+		}
+
+		.project-ctn {
+			.project-heading {
+				p {
+					font-size: rem(40);
+				}
+			}
+		}
+
+		#skills-ctn {
+			.skill {
+				width: 50%;
+			}
+		}
+
+		#about-me,
+		#skills-ctn {
+			gap: rem(40);
+		}
+	}
+}
+
+@media screen and (max-width: rem(320)) {
+	main {
+		#skills-ctn {
+			.skill {
+				h3 {
+					font-size: rem(18);
+				}
+			}
+		}
 	}
 }
