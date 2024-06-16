@@ -1,5 +1,5 @@
 export { init };
-import { updateHeaderActiveLink } from "./components/header";
+import { updateHeaderActiveLink, mobileNavInit } from "./components/header";
 import { scrollToTop } from "./components/toTopBtn";
 
 function init() {

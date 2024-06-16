@@ -1,7 +1,7 @@
 @use "../globals/" as *;
 @use "../utilities/" as *;
 
-#home-main-content {
+main {
 	display: flex;
 	flex-direction: column;
 	padding: rem(200) 0;
@@ -15,8 +15,17 @@
 		align-items: center;
 		gap: rem(120);
 
+		div {
+			width: 60%;
+		}
+
 		p {
 			padding-top: rem(24);
+		}
+
+		img {
+			width: 40%;
+			max-width: rem(300);
 		}
 	}
 
@@ -107,5 +116,11 @@
 				max-width: rem(40);
 			}
 		}
+	}
+}
+
+@media screen and (max-width: rem(1024)) {
+	main {
+		padding: rem(120) rem(50);
 	}
 }

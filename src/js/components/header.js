@@ -1,4 +1,4 @@
-export { updateHeaderActiveLink, removeHeaderStyles };
+export { updateHeaderActiveLink, removeHeaderStyles, mobileNavInit };
 
 const nav = document.querySelectorAll(".nav-links");
 
