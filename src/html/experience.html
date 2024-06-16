@@ -13,18 +13,21 @@
 	<body style="background-color: hsl(0, 0%, 4%)">
 		<header>
 			<div id="header-layout" class="container">
-				<img src="../assets/Home/logo.png" />
-				<nav>
+				<img src="../assets/Home/logo.png" alt="logo" />
+				<nav id="desktop-nav-ctn">
 					<ul>
-						<li><a href="./" class="nav-links">Home</a></li>
+						<li><a href="./" class="nav-links active-nav">Home</a></li>
 						<li><a href="./portfolio.html" class="nav-links">Portfolio</a></li>
 						<li>
-							<a href="./experience.html" class="nav-links active-nav"
-								>Experience</a
-							>
+							<a href="./experience.html" class="nav-links">Experience</a>
 						</li>
 						<li><a href="./about.html" class="nav-links">About Me</a></li>
 					</ul>
+				</nav>
+				<nav id="mobile-nav-ctn" aria-hidden="true">
+					<div class="mobile-line"></div>
+					<div class="mobile-line"></div>
+					<div class="mobile-line"></div>
 				</nav>
 			</div>
 		</header>
