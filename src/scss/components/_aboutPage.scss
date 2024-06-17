@@ -6,10 +6,7 @@
 	padding: rem(120) 0;
 	justify-content: space-between;
 	align-items: center;
-
-	p {
-		padding: 0 rem(48);
-	}
+	gap: rem(48);
 
 	img {
 		width: 50%;
@@ -20,5 +17,27 @@
 @media screen and (max-width: rem(1620)) {
 	#about-content {
 		padding: rem(120) rem(48);
+	}
+}
+
+@media screen and (max-width: rem(1024)) {
+	p {
+		font-size: rem(16);
+	}
+}
+
+@media screen and (max-width: rem(768)) {
+	#about-content {
+		flex-direction: column;
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: rem(768)) {
+	#about-content {
+		padding: rem(80) rem(24);
 	}
 }
