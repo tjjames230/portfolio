@@ -1,6 +1,9 @@
 export { updateHeaderActiveLink, removeHeaderStyles, mobileNavInit };
 
 const nav = document.querySelectorAll(".nav-links");
+const mobileNavBtn = document.querySelector("#mobile-nav-btn");
+const mobileNavCtn = document.querySelector("#mobile-nav");
+const mobileNavExit = document.querySelector("#mobile-nav-exit");
 
 function updateHeaderActiveLink() {
 	nav.forEach((link) => {
@@ -26,7 +29,12 @@ function addHeaderStyles(link) {
 }
 
 function mobileNavInit() {
-	console.log(
-		"this is where I will add logic for opening and closing the nav on click for mobile"
-	);
+	mobileNavBtn.addEventListener("click", () => {
+		mobileNavCtn.classList.toggle("mobile-nav-end");
+		mobileNavCtn.style.display = "flex";
+	});
+
+	mobileNavExit.addEventListener("click", () => {
+		mobileNavCtn.style.display = "none";
+	});
 }

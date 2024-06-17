@@ -1,0 +1,44 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#mobile-nav {
+	display: none;
+	height: 100%;
+	width: 100%;
+	justify-content: space-between;
+	background: $clr-white-transparent-start;
+	transition: background 3s ease-in;
+	position: fixed;
+	z-index: 10;
+
+	#mobile-nav-bg {
+		width: 75%;
+		background-color: $clr-bg;
+	}
+
+	#btn-ctn {
+		width: 25%;
+		text-align: center;
+	}
+
+	button {
+		background: none;
+		color: $clr-black;
+		font-size: rem(40);
+		padding: 0;
+		position: relative;
+		top: rem(24);
+	}
+
+	#mobile-nav-ctn {
+		display: flex;
+		flex-direction: column;
+		gap: rem(32);
+		font-size: rem(20);
+		padding: rem(32);
+	}
+}
+
+.mobile-nav-end {
+	background: $clr-white-transparent-end;
+}
