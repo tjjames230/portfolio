@@ -62,3 +62,23 @@
 		}
 	}
 }
+
+@media screen and (max-width: rem(1620)) {
+	#experience-page {
+		padding: 0 rem(48);
+	}
+}
+
+@media screen and (max-width: rem(1024)) {
+	#experience-page {
+		.experience-content {
+			h3 {
+				font-size: rem(16);
+			}
+
+			span {
+				font-size: rem(24);
+			}
+		}
+	}
+}

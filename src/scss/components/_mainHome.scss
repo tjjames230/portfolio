@@ -1,7 +1,7 @@
 @use "../globals/" as *;
 @use "../utilities/" as *;
 
-main {
+#home {
 	display: flex;
 	flex-direction: column;
 	padding: rem(200) 0;
@@ -119,7 +119,7 @@ main {
 }
 
 @media screen and (max-width: rem(1024)) {
-	main {
+	#home {
 		padding: rem(120) rem(48);
 	}
 }
@@ -129,7 +129,7 @@ main {
 		font-size: rem(16);
 	}
 
-	main {
+	#home {
 		#welcome {
 			flex-direction: column;
 			gap: rem(40);
@@ -138,11 +138,6 @@ main {
 			img {
 				width: 100%;
 			}
-		}
-
-		h1,
-		h2 {
-			font-size: rem(50);
 		}
 
 		.project-ctn {
@@ -164,14 +159,9 @@ main {
 }
 
 @media screen and (max-width: rem(425)) {
-	main {
+	#home {
 		gap: rem(80);
 		padding: rem(80) rem(24);
-
-		h1,
-		h2 {
-			font-size: rem(32);
-		}
 
 		#projects {
 			gap: rem(48);
@@ -199,7 +189,7 @@ main {
 }
 
 @media screen and (max-width: rem(320)) {
-	main {
+	#home {
 		#skills-ctn {
 			.skill {
 				h3 {

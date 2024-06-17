@@ -10,3 +10,10 @@
 #btn-top:hover {
 	cursor: pointer;
 }
+
+@media screen and (max-width: rem(425)) {
+	#btn-top {
+		right: rem(25);
+		bottom: rem(25);
+	}
+}

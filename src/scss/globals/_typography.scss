@@ -25,3 +25,17 @@ a:visited,
 a:active {
 	text-decoration: none;
 }
+
+@media screen and (max-width: rem(768)) {
+	h1,
+	h2 {
+		font-size: rem(50);
+	}
+}
+
+@media screen and (max-width: rem(425)) {
+	h1,
+	h2 {
+		font-size: rem(32);
+	}
+}
