@@ -32,7 +32,6 @@
 
 	.experience-content {
 		font-size: rem(16);
-		padding-left: rem(80);
 
 		ul {
 			display: flex;
@@ -66,7 +65,10 @@
 
 @media screen and (max-width: rem(1620)) {
 	#experience-page {
-		padding: 0 rem(48);
+		aside,
+		section {
+			padding: rem(120) rem(48);
+		}
 	}
 }
 
@@ -81,10 +83,6 @@
 				font-size: rem(24);
 			}
 		}
-
-		aside {
-			padding: rem(120) rem(24);
-		}
 	}
 }
 
@@ -96,10 +94,6 @@
 
 		section {
 			width: 100%;
-		}
-
-		.experience-content {
-			padding-left: 0;
 		}
 	}
 }
