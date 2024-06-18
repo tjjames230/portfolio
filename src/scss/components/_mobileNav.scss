@@ -5,20 +5,18 @@
 	display: none;
 	height: 100%;
 	width: 100%;
-	justify-content: space-between;
-	background: $clr-white-transparent-start;
-	transition: background 3s ease-in;
+	background-color: lightgray;
+	transition: background-color 1s ease-in;
 	position: fixed;
 	z-index: 10;
 
 	#mobile-nav-bg {
-		width: 75%;
+		width: 80%;
 		background-color: $clr-bg;
 	}
 
 	#btn-ctn {
-		width: 25%;
-		text-align: center;
+		width: 20%;
 	}
 
 	button {
@@ -39,6 +37,6 @@
 	}
 }
 
-.mobile-nav-end {
-	background: $clr-white-transparent-end;
+#mobile-nav:active {
+	background-color: white;
 }

@@ -30,7 +30,6 @@ function addHeaderStyles(link) {
 
 function mobileNavInit() {
 	mobileNavBtn.addEventListener("click", () => {
-		mobileNavCtn.classList.toggle("mobile-nav-end");
 		mobileNavCtn.style.display = "flex";
 	});
 
