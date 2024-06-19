@@ -1,8 +1,9 @@
-import { loadExperience } from "./components/experience";
-import { loadMobile } from "./components/mobile";
 export { init };
+import { updateHeaderActiveLink, mobileNavInit } from "./components/header";
+import { scrollToTop } from "./components/toTopBtn";
 
 function init() {
-	loadExperience();
-	loadMobile();
+	updateHeaderActiveLink();
+	scrollToTop();
+	mobileNavInit();
 }

@@ -1,0 +1,82 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#project-list {
+	display: flex;
+	flex-direction: column;
+	padding: rem(120) 0;
+	gap: rem(240);
+
+	.project {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: rem(30);
+
+		img {
+			width: 50%;
+			height: 100%;
+		}
+	}
+
+	.project-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: rem(48);
+		width: 50%;
+
+		p {
+			max-width: rem(520);
+			font-size: rem(16);
+		}
+	}
+}
+
+@media screen and (max-width: rem(1620)) {
+	#project-list {
+		padding: rem(120) rem(48);
+	}
+}
+
+@media screen and (max-width: rem(1024)) {
+	#project-list {
+		gap: rem(120);
+
+		.project-content {
+			gap: rem(24);
+		}
+	}
+}
+
+@media screen and (max-width: rem(768)) {
+	#project-list {
+		.project {
+			flex-direction: column;
+
+			img {
+				width: 100%;
+			}
+
+			.project-content {
+				width: 100%;
+
+				p {
+					max-width: none;
+				}
+			}
+		}
+
+		#coffee-time-project {
+			flex-direction: column-reverse;
+		}
+	}
+}
+
+@media screen and (max-width: rem(425)) {
+	#project-list {
+		gap: rem(80);
+		padding: rem(80) rem(24);
+	}
+}

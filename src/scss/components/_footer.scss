@@ -1,0 +1,27 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: rem(48);
+	font-size: rem(32);
+	height: rem(312);
+	border-top: 1px solid $clr-gray-dark;
+
+	div {
+		display: flex;
+		gap: rem(48);
+	}
+
+	a {
+		color: $clr-white;
+		transition: color 0.1s;
+	}
+
+	a:hover {
+		color: $clr-gray;
+	}
+}

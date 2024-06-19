@@ -3,12 +3,62 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
 	mode: "development",
-	entry: "./src/index.js",
+	entry: {
+		index: "./src/js/index.js",
+		portfolio: "./src/js/portfolio.js",
+		experience: "./src/js/experience.js",
+		about: "./src/js/about.js",
+		mylibrary: "./src/js/portfolio/mylibrary.js",
+		coffeetime: "./src/js/portfolio/coffeetime.js",
+		portfolioproject: "./src/js/portfolio/portfolioproject.js",
+	},
 	devtool: "inline-source-map",
+	devServer: {
+		contentBase: "./dist",
+		hot: true,
+	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: "To Do List",
-			template: "./src/index.html",
+			template: "./src/html/index.html",
+			inject: true,
+			chunks: ["index"],
+			filename: "index.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/html/portfolio.html",
+			inject: true,
+			chunks: ["portfolio"],
+			filename: "portfolio.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/html/experience.html",
+			inject: true,
+			chunks: ["experience"],
+			filename: "experience.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/html/about.html",
+			inject: true,
+			chunks: ["about"],
+			filename: "about.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/html/portfolio/mylibrary.html",
+			inject: true,
+			chunks: ["mylibrary"],
+			filename: "portfolio/mylibrary.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/html/portfolio/coffeetime.html",
+			inject: true,
+			chunks: ["coffeetime"],
+			filename: "portfolio/coffeetime.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/html/portfolio/portfolioproject.html",
+			inject: true,
+			chunks: ["portfolioproject"],
+			filename: "portfolio/portfolioproject.html",
 		}),
 	],
 	output: {

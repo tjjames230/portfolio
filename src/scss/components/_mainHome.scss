@@ -1,0 +1,201 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#home {
+	display: flex;
+	flex-direction: column;
+	padding: rem(200) 0;
+	gap: rem(200);
+	max-width: rem(1206);
+	margin: 0 auto;
+	align-items: center;
+
+	#welcome {
+		display: flex;
+		align-items: center;
+		gap: rem(120);
+
+		div {
+			width: 60%;
+		}
+
+		p {
+			padding-top: rem(24);
+		}
+
+		img {
+			width: 40%;
+			max-width: rem(300);
+		}
+	}
+
+	#header-location {
+		color: $clr-gray;
+		font-weight: 300;
+	}
+
+	#projects {
+		display: flex;
+		flex-direction: column;
+		max-width: rem(795);
+		width: 100%;
+		gap: rem(120);
+
+		#projects-one-liner {
+			text-align: center;
+		}
+	}
+
+	.project-ctn {
+		display: flex;
+		flex-direction: column;
+		gap: rem(40);
+
+		.project-heading {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			p {
+				font-size: rem(80);
+				font-weight: 100;
+			}
+		}
+	}
+
+	#about-me,
+	#skills-ctn {
+		display: flex;
+		flex-direction: column;
+		gap: rem(80);
+
+		h2 {
+			text-align: center;
+		}
+	}
+
+	#about-me {
+		max-width: rem(657);
+	}
+
+	#skills-ctn {
+		max-width: rem(991);
+		width: 100%;
+
+		#skills-list {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: rem(64) 0;
+		}
+
+		.skill {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: rem(24);
+			width: 20%;
+
+			h3 {
+				text-align: center;
+			}
+		}
+
+		.skill-img-ctn {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: rem(104);
+			width: rem(104);
+			border: 1px solid $clr-gray;
+			border-radius: rem(100);
+
+			img {
+				max-height: rem(40);
+				max-width: rem(40);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: rem(1024)) {
+	#home {
+		padding: rem(120) rem(48);
+	}
+}
+
+@media screen and (max-width: rem(768)) {
+	body {
+		font-size: rem(16);
+	}
+
+	#home {
+		#welcome {
+			flex-direction: column;
+			gap: rem(40);
+
+			div,
+			img {
+				width: 100%;
+			}
+		}
+
+		.project-ctn {
+			gap: rem(32);
+
+			.project-heading {
+				p {
+					font-size: rem(60);
+				}
+			}
+		}
+
+		#skills-ctn {
+			.skill {
+				width: 33%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: rem(425)) {
+	#home {
+		gap: rem(80);
+		padding: rem(80) rem(24);
+
+		#projects {
+			gap: rem(48);
+		}
+
+		.project-ctn {
+			.project-heading {
+				p {
+					font-size: rem(40);
+				}
+			}
+		}
+
+		#skills-ctn {
+			.skill {
+				width: 50%;
+			}
+		}
+
+		#about-me,
+		#skills-ctn {
+			gap: rem(40);
+		}
+	}
+}
+
+@media screen and (max-width: rem(320)) {
+	#home {
+		#skills-ctn {
+			.skill {
+				h3 {
+					font-size: rem(18);
+				}
+			}
+		}
+	}
+}

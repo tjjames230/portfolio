@@ -1,72 +1,82 @@
-@use "../globals/" as *;
 @use "../utilities/" as *;
+@use "../globals/" as *;
 
 header {
-	background-color: $clr-primary;
-	color: $clr-white;
-	top: rem(0);
-	border-bottom: 1px solid $clr-gray-dk;
-	position: sticky;
-	z-index: 10;
+	padding: rem(48) 0;
+	border-bottom: 1px solid $clr-gray-dark;
 }
 
-#header-ctn {
-	margin: 0 auto;
+#header-layout {
 	display: flex;
 	justify-content: space-between;
-	padding: rem(25) 0;
-
-	#header-left,
-	#header-right {
-		display: flex;
-		justify-content: space-between;
-		gap: rem(50);
-	}
-
-	nav,
-	#socials {
-		display: flex;
-		justify-content: space-between;
-		gap: rem(30);
-		align-items: center;
-	}
-}
-
-.desktop-link {
-	color: $clr-white;
-	display: flex;
 	align-items: center;
-	border-bottom: 2px solid $clr-primary;
-	font-size: rem(16);
 }
 
-.desktop-link:hover {
-	border-bottom: 2px solid $clr-secondary;
-}
+ul {
+	list-style: none;
+	display: flex;
+	gap: rem(48);
 
-i {
-	color: $clr-white;
-	font-size: rem(28);
-}
+	a {
+		color: $clr-gray;
+		transition: color 0.1s;
+	}
 
-i:hover {
-	color: $clr-secondary;
-}
+	a:hover {
+		color: $clr-white;
+	}
 
-@media screen and (max-width: rem(1590)) {
-	#header-ctn {
-		padding: rem(25);
+	.active-nav {
+		color: $clr-white;
 	}
 }
 
-@media screen and (max-width: rem(950)) {
-	#header-ctn {
-		#header-left > nav {
-			display: none;
-		}
+#mobile-nav-btn {
+	display: none;
+	width: rem(40);
+	height: rem(50);
+	flex-direction: column;
+	gap: rem(8);
+	justify-content: center;
 
-		#header-right {
-			display: none;
+	.mobile-line {
+		height: rem(4);
+		width: 100%;
+		background-color: $clr-gray;
+		border-radius: rem(10);
+	}
+}
+
+@media screen and (max-width: rem(1620)) {
+	header {
+		padding: rem(48);
+	}
+}
+
+@media screen and (max-width: rem(910)) {
+	#desktop-nav-ctn {
+		display: none;
+	}
+
+	#mobile-nav-btn {
+		display: flex;
+	}
+}
+
+@media screen and (max-width: rem(425)) {
+	header {
+		padding: rem(24);
+
+		img {
+			max-width: rem(240);
+		}
+	}
+}
+
+@media screen and (max-width: rem(350)) {
+	header {
+		img {
+			max-width: rem(160);
 		}
 	}
 }

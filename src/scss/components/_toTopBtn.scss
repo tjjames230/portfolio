@@ -1,0 +1,20 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#btn-top {
+	position: fixed;
+	right: rem(50);
+	bottom: rem(50);
+	z-index: 3;
+}
+
+#btn-top:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: rem(425)) {
+	#btn-top {
+		right: rem(25);
+		bottom: rem(25);
+	}
+}

@@ -1,0 +1,56 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+.mobile-nav {
+	display: flex;
+	visibility: hidden;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: background-color 0.2s ease-out;
+	position: fixed;
+	z-index: 10;
+
+	.mobile-nav-bg {
+		width: 0%;
+		transition: width 0.2s ease-in;
+		background-color: $clr-bg;
+		overflow: hidden;
+	}
+
+	.active-ctn {
+		width: 80%;
+	}
+
+	.nav-links {
+		white-space: nowrap;
+	}
+
+	#btn-ctn {
+		width: 20%;
+	}
+
+	button {
+		background: none;
+		color: $clr-black;
+		font-size: rem(32);
+		padding-left: rem(16);
+		position: relative;
+		top: rem(16);
+	}
+
+	#mobile-nav-ctn {
+		display: flex;
+		flex-direction: column;
+		gap: rem(32);
+		font-size: rem(20);
+		padding: rem(32);
+	}
+}
+
+.active-bg {
+	background-color: rgba(255, 255, 255, 0.8);
+	visibility: visible;
+	opacity: 1;
+}

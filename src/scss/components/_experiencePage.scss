@@ -1,0 +1,110 @@
+@use "../globals/" as *;
+@use "../utilities/" as *;
+
+#experience-page {
+	display: flex;
+
+	aside {
+		padding: rem(120) 0;
+		border-right: 1px solid $clr-gray-dark;
+		width: 25%;
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			position: sticky;
+			top: rem(80);
+			gap: rem(24);
+		}
+
+		h4 {
+			font-weight: 700;
+		}
+	}
+
+	section {
+		padding: rem(120) 0 rem(120) rem(80);
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		gap: rem(120);
+	}
+
+	.experience-content {
+		font-size: rem(16);
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			gap: rem(8);
+			list-style: disc;
+			list-style-position: outside;
+		}
+
+		.dates {
+			font-size: rem(20);
+			font-style: italic;
+			font-weight: 400;
+			display: inline-block;
+		}
+
+		.title {
+			font-size: rem(40);
+			font-weight: 300;
+			font-style: normal;
+		}
+
+		p {
+			font-size: rem(20);
+			font-weight: 700;
+			margin-bottom: rem(24);
+			margin-top: rem(8);
+		}
+	}
+}
+
+@media screen and (max-width: rem(1620)) {
+	#experience-page {
+		aside,
+		section {
+			padding: rem(120) rem(48);
+		}
+	}
+}
+
+@media screen and (max-width: rem(1024)) {
+	#experience-page {
+		.experience-content {
+			.dates {
+				font-size: rem(16);
+			}
+
+			.title {
+				font-size: rem(24);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: rem(768)) {
+	#experience-page {
+		aside {
+			display: none;
+		}
+
+		section {
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: rem(425)) {
+	#experience-page {
+		padding: 0 rem(24);
+
+		section {
+			padding: rem(80) 0;
+			gap: rem(80);
+		}
+	}
+}

@@ -4,12 +4,13 @@
 
 html {
 	font-size: 100%;
+	//scroll-behavior: smooth;
 }
 
 body {
 	font-family: $font-primary;
 	font-size: rem(18);
-	color: $clr-gray-dk;
-	background-color: $clr-gray-lt;
+	color: $clr-white;
+	background-color: $clr-bg;
 	line-height: 1.5;
 }
