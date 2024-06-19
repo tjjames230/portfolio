@@ -1,12 +1,14 @@
 @use "../globals/" as *;
 @use "../utilities/" as *;
 
-#mobile-nav {
-	display: none;
+.mobile-nav {
+	display: flex;
+	visibility: hidden;
+	opacity: 0;
 	height: 100%;
 	width: 100%;
-	background-color: lightgray;
-	transition: background-color 1s ease-in;
+	background-color: rgba(255, 255, 255, 0.2);
+	transition: background-color 0.2s ease-out;
 	position: fixed;
 	z-index: 10;
 
@@ -23,7 +25,7 @@
 		background: none;
 		color: $clr-black;
 		font-size: rem(40);
-		padding: 0;
+		padding-left: rem(16);
 		position: relative;
 		top: rem(24);
 	}
@@ -37,6 +39,8 @@
 	}
 }
 
-#mobile-nav:active {
-	background-color: white;
+.active {
+	background-color: rgba(255, 255, 255, 0.8);
+	visibility: visible;
+	opacity: 1;
 }
