@@ -2,8 +2,9 @@ export { updateHeaderActiveLink, removeHeaderStyles, mobileNavInit };
 
 const nav = document.querySelectorAll(".nav-links");
 const mobileNavBtn = document.querySelector("#mobile-nav-btn");
-const mobileNavCtn = document.querySelector(".mobile-nav");
+const mobileNav = document.querySelector(".mobile-nav");
 const mobileNavExit = document.querySelector("#mobile-nav-exit");
+const mobileNavCtn = document.querySelector(".mobile-nav-bg");
 
 function updateHeaderActiveLink() {
 	nav.forEach((link) => {
@@ -30,10 +31,12 @@ function addHeaderStyles(link) {
 
 function mobileNavInit() {
 	mobileNavBtn.addEventListener("click", () => {
-		mobileNavCtn.classList.add("active");
+		mobileNav.classList.add("active-bg");
+		mobileNavCtn.classList.add("active-ctn");
 	});
 
 	mobileNavExit.addEventListener("click", () => {
-		mobileNavCtn.classList.remove("active");
+		mobileNav.classList.remove("active-bg");
+		mobileNavCtn.classList.remove("active-ctn");
 	});
 }
